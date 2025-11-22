@@ -1,0 +1,8 @@
+while [ $num -ne $x ]; do
+    if [ $num -lt $x ]; then
+        echo -e "Your number is less than guessed number\nEnter a number again, please : "
+    elif [ $num -gt $x ]; then
+        echo -e "Your number is more than guessed number\nEnter a number again, please : "
+    fi
+    read num
+done
