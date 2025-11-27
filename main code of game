@@ -21,3 +21,4 @@ while [ $num -ne $x ]; do
     fi
     read num
 done
+echo -e "Your number is the guessed number\nYou won!"
